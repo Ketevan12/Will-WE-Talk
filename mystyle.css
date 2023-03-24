@@ -1,0 +1,203 @@
+mystyle.css
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,400;1,500&display=swap');
+
+.h1{
+  font-size: 1%;
+  font-family: 'Crimson Pro';
+  font-display: center;
+}
+
+.grid-container {
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-bottom: 5%;
+  margin-top: 1%;
+  display: grid;
+  grid-template-columns: repeat(7, 15%);
+  grid-row-gap: 30%;
+  grid-area: center;  
+  -webkit-filter: blur(3px);
+  -moz-filter: blur(3px);
+  -o-filter: blur(3px);
+  -ms-filter: blur(3px);
+  filter: blur(3px);
+
+  }
+    
+    .grid-container > div {
+      padding: 50px;
+      width: 20%;
+      height: 20%;
+      border-radius: 60%;
+      background-image:radial-gradient(rgb(14, 14, 19),rgb(14, 14, 172),lightblue, rgb(255, 255, 0),rgb(240, 231, 63));
+      animation-timing-function: linear;
+      -webkit-filter: blur(3px);
+      -moz-filter: blur(3px);
+      -o-filter: blur(3px);
+      -ms-filter: blur(3px);
+      filter: blur(3px);
+      
+ 
+    }
+  
+
+.circle {
+  animation: GFG 5s infinite linear;
+  animation-timing-function: cubic-bezier(1, 0.82, 0.165, 1);
+
+}
+.circletwo {
+  animation: GFG 13s infinite linear;
+}
+.circlethree {
+  animation: GFG 10s infinite linear;
+
+}
+.circlefour {
+  animation: GFG 8s infinite linear;
+
+}
+.circlefive {
+  animation: GFG 12s infinite linear;
+ 
+
+}
+.circlesix {
+  animation: GFG 7s infinite linear;
+
+
+}
+.circleseven {
+
+  animation-timing-function: cubic-bezier(0.82, 1, 0.165, 3);
+}
+.circleeight {
+
+  animation-timing-function: cubic-bezier(1, 1, 0.5, 9);
+
+}
+.circlenine {
+  animation: GFG 5s infinite linear;
+  animation-timing-function: cubic-bezier(2, 0.82, 0.165, 6);
+
+}
+.circleten {
+
+
+}
+.circleeleven {
+  animation: GFG 10s infinite linear;
+
+
+}
+.circletwelve {
+  animation-timing-function: cubic-bezier( 0.82, 0.165, 1);
+
+}
+.circlethirteen {
+  animation: GFG 14s infinite linear;
+
+
+}
+.circlefourteen {
+  animation: GFG 5s infinite linear;
+  animation-timing-function: cubic-bezier(5, 0.1, 1.165, 1);
+  
+}
+.circlefifteen {
+  animation: GFG 6.7s infinite linear;
+
+
+}
+.circlesixteen {
+  animation-timing-function: cubic-bezier(3, 0.82, 0.165, 9);
+
+}
+.circleseventeen {
+  animation: GFG 12s infinite linear;
+ 
+}
+.circleeighteen {
+
+  animation-timing-function: cubic-bezier(3, 0.82, 0.165, .6);
+
+}
+.circlenineteen {
+  animation-timing-function: cubic-bezier(1, 0.82, 0.165, 1);
+
+}
+.circletwenty {
+  animation: GFG 8s infinite linear;
+}
+.circletwentyone {
+  animation: GFG 10s infinite linear;
+}
+.circletwentytwo {
+  animation: GFG 10s infinite linear;
+
+}
+.circletwentythree {
+  animation-timing-function: cubic-bezier( 0.82, 0.165, 1);
+}
+.circletwentyfour {
+
+}
+.circletwentyfive {
+  animation: GFG 5s infinite linear;
+
+}
+.circletwentysix {
+  animation: GFG 15s infinite linear;
+
+}
+.circletwentyseven {
+  animation: GFG 7s infinite linear;
+
+}
+.circletwentyeight {
+  animation: GFG 13s infinite linear;
+
+}
+
+@keyframes GFG {
+  0% {
+      transform: rotate(0deg) 
+            translateY(-5px) rotate(0deg);
+  }
+  10%{
+    transform: rotate(360deg) 
+            translateY(0px) rotate(-360deg);
+  }
+  15%{
+    transform: rotate(360deg) 
+            translateY(-15px) rotate(-360deg);
+  }
+  20%{
+    transform: rotate(360deg) 
+            translateY(20px) rotate(-360deg);
+  }
+  25%{
+    transform: rotate(360deg) 
+            translateY(20px) rotate(-360deg);
+  }
+  30%{
+    transform: rotate(360deg) 
+            translateY(20px) rotate(-360deg);
+  }
+  35%{
+    transform: rotate(360deg) 
+            translateY(20px) rotate(-360deg);
+  }
+  100% {
+    transform: rotate(0deg) 
+    translateY(0px) rotate(0deg);
+  }
+}
+
+body {
+  background-color: rgb(37, 68, 223);
+  background-position: center;
+  font-family: 'Crimson Pro';
+  font-size: 25px;
+  color: rgb(247, 222, 0);
+}
