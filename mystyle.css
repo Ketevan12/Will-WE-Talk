@@ -223,3 +223,11 @@ body {
   margin-bottom: 10pt;
   font-size: 200%;
 }
+
+
+a {
+  text-decoration: none;
+  color: inherit;
+  color:blue;
+
+}

@@ -1,3 +1,5 @@
+const CirclesList = document.querySelector('#CirclesList');
+
 function renderCircles(circle, i) {
   // Create .Circle element
   const circleElement = document.createElement('div');
@@ -33,7 +35,7 @@ function renderCircles(circle, i) {
 
   // Add to the CirclesList
   if (circleElement) {
-    CirclesList.appendCircle(circleElement);
+    CirclesList.appendChild(circleElement);
   }
 }
 
