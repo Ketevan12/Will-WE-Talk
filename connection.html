@@ -4,11 +4,61 @@
   <head>    <link rel="stylesheet" href="mystyle.css">
     <style>
       @import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,400;1,500&display=swap');
+      body{
+        margin: 10px;
+        
+      }
+      .grid-container1 {
+    padding-left:10%;
+    padding-bottom: 8%;
+    margin: 10px;
+    display: grid;
+    grid-template-columns: repeat(2, 45%);
+    grid-template-rows: repeat(30, 25%);
+    }
+    .grid-container1 > div{
+      font-size: 20px;
+      width: 88%;
+      }
       </style>
   
   </head>
 
   <body>
+    <h1>Connections</h1>
+    <div class="grid-container1">
+        <div> Converstion: 1,  Connection: Established, Duration: 10min, Association: friend,
+            Location: School,     Pitch: 20HZ,  Transcript: "Hello" "Hi"  
+          </div> 
+          <div>Converstion: 4, 
+            Connection: Established, Duration: 10min, Association: sister,
+            Location: Bedroom,     Pitch: 20HZ,  Transcript: Hello, Hi 
+          </div><div>Converstion: 7, 
+            Connection: Established,  Duration:30min,  Association: friend,</div>
+          <div>Converstion: 8, 
+            Connection: Established, Duration: 5min, Association: friend,
+            Location: Cafe,     Pitch: 20HZ,  Transcript: Hello, Hi 
+          </div>
+          <div>Converstion: 10, 
+            Connection: Established, Duration: 3min, Association: friend,
+            Location: Street,     Pitch: 20HZ,  Transcript: Hello, Hi 
+          </div>
+          <div>Converstion: 12, 
+            Connection: Established,  Duration:10min,  Association:security,
+            Location: Lobby, Pitch: 20HZ,  Transcript: Hello, Hi </div>
+          <div>Converstion: 13, 
+            Connection: Established, Duration: 30min, Association: friend,
+            Location: Bathroom Line,     Pitch: 20HZ,  Transcript: Hello, Hi 
+          </div>
+     <div>Converstion:17, 
+  Connection: Established, Duration: 25min, Association: friend,
+  Location: cafe,     Pitch: 20HZ,  Transcript: Hello, Hi 
+</div>
+<div>Converstion:21, 
+  Connection: Established, Duration: 5min, Association: friend,
+  Location: Classroom,     Pitch: 20HZ,  Transcript: Hello, Hi 
+  </div>
+
     
     <script src="script.js"></script>
     </body>
