@@ -1,6 +1,5 @@
-{
+Const = Circles [
 
-    "Circles":[
     {
       "Circle-Number": "Circle",
       "Ambient Sound": "ds" ,
@@ -254,5 +253,5 @@
       "Association": ""
     }
     ]
-  }
+
   

@@ -1,55 +1,46 @@
-
-const CirclesList = document.getElementById('Circles')
-
-function renderCircles(Circles, i) {
+function renderCircles(circle, i) {
   // Create .Circle element
-  const CirclesElement = document.createElement('div')
+  const circleElement = document.createElement('div');
 
-  CirclesElement.classList.add('Circles')
-  CirclesElement.classList.add(`Circles-${i}`)
+  circleElement.classList.add('Circles');
+  circleElement.classList.add(`Circles-${i}`);
 
-  console.log(CirclesElement)
-  console.log(CirclesHTML.cover_image_url)
+  console.log(circleElement);
+  console.log(circle.gradiant);
 
   // Create the inner HTML content
-  const CirclesHTML = `
-    <a href="CircleDetail.html?title=${Circles.number}">
-      <img src="${Circles.gradiant}">
+  const circleHTML = `
+    <a href="CircleDetail.html?title=${circle.number}">
+      <img src="${circle.gradiant}">
     </a>
     <ul>
-      <li>Circle-Number: ${Circles.}</li>
-      <li>Ambient-Sound: ${Circles.}</li>
-      <li>Transcript: ${Circles.}</li>
-      <li>Connection: ${Circles.}</li>
-      <li>Duration: ${Circles.}</li>
-      <li>Association: ${Circles.}</li>
+      <li>Circle-Number: ${circle.number}</li>
+      <li>Ambient-Sound: ${circle.ambient_sound}</li>
+      <li>Transcript: ${circle.transcript}</li>
+      <li>Connection: ${circle.connection}</li>
+      <li>Duration: ${circle.duration}</li>
+      <li>Association: ${circle.association}</li>
       <li>
-        <a href="${Circles.number}">
+        <a href="${circle.number}">
          Listen Here
         </a>
       <li>
     </ul>
-  `
+  `;
 
-  // Set the inner HTML content of the albumElement
-  CirclesElement.innerHTML = CirclesHTML
+  // Set the inner HTML content of the circleElement
+  circleElement.innerHTML = circleHTML;
 
-  // Add to the list #albums-list
-  CirclesList.appendChild(CirclesElement)
+  // Add to the CirclesList
+  if (circleElement) {
+    CirclesList.appendCircle(circleElement);
+  }
 }
 
-Circles.forEach(function(Circles) {
- if (Circles.Circle-number < 2000) {
-    renderCircles(Circle)
- } })
-
 fetch('Circles.json')
-    .then((response) => response.json())
-    .then((json) => {
-      json.Circles.forEach(function(Circles, i) {
-        // if (album.year_released < 2000) {
-          renderCircles(Circles, i)
-        // }
-      })
+  .then((response) => response.json())
+  .then((json) => {
+    json.Circles.forEach(function(circle, i) {
+      renderCircles(circle, i);
     });
-
+  });
