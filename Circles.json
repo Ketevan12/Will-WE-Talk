@@ -1,10 +1,9 @@
-resources
-[
+{
+
+    "Circles":[
     {
-    "Circles":
-    {
-      "Circle Number": "Circle",
-      "Ambient Sound": "" ,
+      "Circle-Number": "Circle",
+      "Ambient Sound": "ds" ,
       "Transcript": "Hello, Hi",
       "Connection": "established",
       "Duration": "10min",
@@ -12,7 +11,7 @@ resources
       "Association": "Friend"
     },
     {
-      "Circle number": "Circletwo",
+      "Circle-number": "Circletwo",
       "Ambient Sound": "",
       "Transcript": "hello can I check her out of my room, yes what room",
       "Connection": "lost",
@@ -30,7 +29,7 @@ resources
       "Association": "none"
     },
     {
-      "Circle number": "Circlefour",
+      "Circle-number": "Circlefour",
       "Ambient Sound": "",
       "Transcript": "hey you awake yet? Yes",
       "Connection": "established",
@@ -254,5 +253,6 @@ resources
       "Colors": "",
       "Association": ""
     }
-}
-  ]
+    ]
+  }
+  

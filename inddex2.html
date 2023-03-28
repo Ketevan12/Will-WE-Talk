@@ -1,0 +1,99 @@
+
+<!doctype html>
+<html>
+  <head>    
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,400;1,500&display=swap');
+  
+      .circle {
+        viewport-fit: inherit;
+        margin-top: 30%;
+        margin-left: 50%;
+        margin-right: 10%;
+        margin-bottom: 10%;
+      border-radius: 80%;
+      animation-timing-function: 1;
+      -webkit-filter: blur(3px);
+      -moz-filter: blur(3px);
+      -o-filter: blur(3px);
+      -ms-filter: blur(3px);
+      filter: blur(3px);
+      animation: GFG 10s infinite linear;
+  width: 40px;
+  height: 40px;
+  place-items: center;
+      }
+
+      .Connection{
+        font-size: 50px;
+        padding-top: 10%;
+        -moz-transform: translateX(100%);
+    -webkit-transform: translateX(100%);
+    transform: translateX(100%);
+    color: yellow;
+    -moz-animation: my-animation 10s linear infinite;
+    -webkit-animation: my-animation 15s linear infinite;
+    animation: my-animation 30s linear infinite;
+    
+
+}
+      body{
+        background-color: blue;
+      }
+
+    
+      a {
+    text-decoration: none;
+    color: inherit;
+}
+  
+    @keyframes GFG {
+  0% {
+      transform: scale(2) 
+            translateY(0px) rotate(0deg);
+            background-color: darkblue;
+  }
+  50%{
+    transform: scale(4) 
+            translateY(0px) rotate(0deg);
+            background-color: orange;
+  }
+  
+  100% {
+    transform: scale(6) 
+    translateY(0px) rotate(0deg);
+    background-color: yellow;
+  }
+
+} 
+  @keyframes my-animation {
+    from {
+      -moz-transform: translateX(100%);
+      -webkit-transform: translateX(100%);
+      transform: translateX(100%);
+      ;
+    }
+    to {
+      -moz-transform: translateX(-100%);
+      -webkit-transform: translateX(-100%);
+      transform: translateX(-100%);
+     ;
+    }
+}
+  
+
+    
+      </style>
+  
+  </head>
+  <body href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/article">
+  
+ <div class="circle"> </div>
+ <div class="Connection"> <a href="https://github.com/Ketevan12/garden-of-forking-paths/blob/main/mystyle.css"> Connection: Established </a> </div>
+
+  </div>
+  <embed src="audio">
+
+ <script src="script.js"></script>
+ </body>
+</html>

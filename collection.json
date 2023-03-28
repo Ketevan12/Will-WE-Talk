@@ -1,0 +1,258 @@
+
+{
+    [
+    {
+      "Circle-Number": "Circle",
+      "Ambient-Sound": "" ,
+      "Transcript": "Hello, Hi",
+      "Connection": "established",
+      "Duration": "10min",
+      "Colors": "Yellow",
+      "Association": "Friend"
+    },
+    {
+      "Circle-number": "Circletwo",
+      "Ambient-Sound": "",
+      "Transcript": "hello can I check her out of my room, yes what room",
+      "Connection": "lost",
+      "Duration": "2min",
+      "Colors": "dark  blue",
+      "Association": "none"
+    },
+    {
+      "Circle number": "Circlethree",
+      "Ambient Sound": "",
+      "Transcript": "Hello could I have an iced latte yes what milk?",
+      "Connection": "lost",
+      "Duration": "1min",
+      "Colors": "dark  blue",
+      "Association": "none"
+    },
+    {
+      "Circle-number": "Circlefour",
+      "Ambient Sound": "",
+      "Transcript": "hey you awake yet? Yes",
+      "Connection": "established",
+      "Duration": "3hours",
+      "Colors": "yellow",
+      "Association": "sister"
+    },
+    {
+      "Circle number": "Circlefive",
+      "Ambient Sound": "",
+      "Transcript": "hello",
+      "Connection": "lost",
+      "Duration": "0min",
+      "Colors": "dark  blue",
+      "Association": "teacher"
+    },
+    {
+      "Circle number": "Circlesix",
+      "Ambient Sound": "",
+      "Transcript": "hello, good morning",
+      "Connection": "lost",
+      "Duration": "1min",
+      "Colors": "darkblue blue",
+      "Association": "security"
+    },
+    {
+      "Circle number": "Circleseven",
+      "Ambient Sound": "",
+      "Transcript": "hello, hey",
+      "Connection": "established",
+      "Duration": "30min",
+      "Colors": "dark blue yellow",
+      "Association": "friend"
+    },
+    {
+      "Circle number": "Circleeight",
+      "Ambient Sound": "",
+      "Transcript": "hey, whats up?",
+      "Connection": "established",
+      "Duration": "5min",
+      "Colors": "blue-yellow",
+      "Association": "friend"
+    },
+    {
+      "Circle number": "Circlenine",
+      "Ambient Sound": "",
+      "Transcript": "hello",
+      "Connection": "lost",
+      "Duration": "0min",
+      "Colors": "dark blue",
+      "Association": "none"
+    },
+    {
+      "Circle number": "Circleten",
+      "Ambient Sound": "",
+      "Transcript": "hello, hello hello",
+      "Connection": "established",
+      "Duration": "3 min",
+      "Colors": "blue-yellow",
+      "Association": "security"
+    },
+    {
+      "Circle number": "Circleeleven",
+      "Ambient Sound": "",
+      "Transcript": "Is this spot taken, no go ahead",
+      "Connection": "lost",
+      "Duration": "1min",
+      "Colors": "blue-yellow",
+      "Association": "none"
+    },
+    {
+      "Circle number": "Circletweleve",
+      "Ambient Sound": "",
+      "Transcript": "Hey keti, hey",
+      "Connection": "established",
+      "Duration": "10min",
+      "Colors": "blue-yellow",
+      "Association": "friend"
+    },
+    {
+      "Circle number": "Circlethirteen",
+      "Ambient Sound": "",
+      "Transcript": "ahhh, you scared me",
+      "Connection": "established",
+      "Duration": "30min",
+      "Colors": "blue-yellow",
+      "Association": "friend"
+    },
+    {
+      "Circle number": "Circlefourteen",
+      "Ambient Sound": "",
+      "Transcript": "",
+      "Connection": "",
+      "Duration": "",
+      "Colors": "",
+      "Association": ""
+    },
+    {
+      "Circle number": "Circlefifteen",
+      "Ambient Sound": "",
+      "Transcript": "",
+      "Connection": "",
+      "Duration": "",
+      "Colors": "",
+      "Association": ""
+    },
+    {
+      "Circle number": "Circlesixteen",
+      "Ambient Sound": "",
+      "Transcript": "",
+      "Connection": "",
+      "Duration": "",
+      "Colors": "",
+      "Association": ""
+    },
+    {
+      "Circle number": "Circleseventeen",
+      "Ambient Sound": "",
+      "Transcript": "",
+      "Connection": "",
+      "Duration": "",
+      "Colors": "",
+      "Association": ""
+    },
+    {
+      "Circle number": "Circleeighteen",
+      "Ambient Sound": "",
+      "Transcript": "",
+      "Connection": "",
+      "Duration": "",
+      "Colors": "",
+      "Association": ""
+    },
+    {
+      "Circle number": "Circlenineteen",
+      "Ambient Sound": "",
+      "Transcript": "",
+      "Connection": "",
+      "Duration": "",
+      "Colors": "",
+      "Association": ""
+    },
+    {
+      "Circle number": "Circletwenty",
+      "Ambient Sound": "",
+      "Transcript": "",
+      "Connection": "",
+      "Duration": "",
+      "Colors": "",
+      "Association": ""
+    },
+    {
+      "Circle number": "Circletwentyone",
+      "Ambient Sound": "",
+      "Transcript": "",
+      "Connection": "",
+      "Duration": "",
+      "Colors": "",
+      "Association": ""
+    },
+    {
+      "Circle number": "Circletwentytwo",
+      "Ambient Sound": "",
+      "Transcript": "",
+      "Connection": "",
+      "Duration": "",
+      "Colors": "",
+      "Association": ""
+    },
+    {
+      "Circle number": "Circletwentythree",
+      "Ambient Sound": "",
+      "Transcript": "",
+      "Connection": "",
+      "Duration": "",
+      "Colors": "",
+      "Association": ""
+    },
+    {
+      "Circle number": "Circletwentyfour",
+      "Ambient Sound": "",
+      "Transcript": "",
+      "Connection": "",
+      "Duration": "",
+      "Colors": "",
+      "Association": ""
+    },
+    {
+      "Circle number": "Circletwentyfive",
+      "Ambient Sound": "",
+      "Transcript": "",
+      "Connection": "",
+      "Duration": "",
+      "Colors": "",
+      "Association": ""
+    },
+    {
+      "Circle number": "Circletwentysix",
+      "Ambient Sound": "",
+      "Transcript": "",
+      "Connection": "",
+      "Duration": "",
+      "Colors": "",
+      "Association": ""
+    },
+    {
+      "Circle number": "Circletewentyseven",
+      "Ambient Sound": "",
+      "Transcript": "",
+      "Connection": "",
+      "Duration": "",
+      "Colors": "",
+      "Association": ""
+    },
+    {
+      "Circle number": "Circletwentyeight",
+      "Ambient Sound": "",
+      "Transcript": "",
+      "Connection": "",
+      "Duration": "",
+      "Colors": "",
+      "Association": ""
+    }
+    ]
+  }
+  
