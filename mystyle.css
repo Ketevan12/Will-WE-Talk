@@ -20,7 +20,7 @@ filter: blur(1px);
   padding-bottom: 8%;
   display: grid;
   grid-template-columns: repeat(7, 15%);
-  grid-row-gap: 25%;
+  grid-row-gap: 17%;
   grid-area: center;  
   -webkit-filter: blur(3px);
   -moz-filter: blur(3px);
